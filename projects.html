@@ -2,11 +2,72 @@
 <html>
     <head>
         <title>
-            Projects
+            About
         </title>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
+        <nav class="nav" id="nav">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <h1 class="nav-logo">portfolio.</h1>
+                    <button class="nav-btn" id="nav-btn"><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="projects.html">projects</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <aside class="sidebar" id="sidebar">
+            <button class="close-btn" id="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="sidebar-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <ul class="social-icons">
+                <li><a href="https://linkedin.com/in/jinan-lakan" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Jinan7" class="social-icon"><i class="fa-brands fa-github"></i></a></li>    
+            </ul>
+        </aside>
         
+        <header class="projects-hero">
+            <div class="section-title">
+                <h2>my projects</h2>
+                <div class="underline"></div>
+            </div>
+        </header>
+        <section class="section">
+            <div class="section-center projects-page-center">
+                <article class="single-project">
+                    <div class="project-container">
+                        <img src="./images/project-1.jpeg" alt="">
+                        <a href="https://johnsmilga.com" class="project-icon"><i class="fa-solid fa-house"></i></a>
+                    </div>
+                    <div class="project-details">
+                        <h4>project name</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit nulla nobis ut quae molestiae accusantium unde ab laudantium quasi iusto quas, similique nostrum saepe facilis itaque et sequi iure laboriosam.</p>
+                        <div class="project-footer">
+                            <span><i class="fa-brands fa-github"></i></span>
+                            <a href="">source code</a>
+                        </div>
+                    </div>
+                    
+                </article>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>&copy; <span id="date"></span> all rights reserved</p>
+        </footer>
+        <script src="./js/app.js"></script>
     </body>
 </html>
