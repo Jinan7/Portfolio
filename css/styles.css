@@ -148,8 +148,13 @@ img{
     display: none;
 }
 
-.nav-logo{
+.nav-links a{
+    color:var(--clr-grey-1);
+}
+
+.nav-logo a{
     text-transform: lowercase;
+    color:var(--clr-grey-1);
 }
 
 @media screen and (min-width:768px) {
