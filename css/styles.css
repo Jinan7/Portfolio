@@ -342,6 +342,10 @@ img{
         
     }
 
+    .about-img{
+        position:relative;
+    }
+
     
 
     .hero-img::before, .about-img::before{
